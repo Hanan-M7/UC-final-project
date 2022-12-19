@@ -1,0 +1,94 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(95, 186, 151);
+}
+
+@keyframes bounce {
+    from {
+      transform: translateX(-10px);
+    }
+    to {
+      transform: translateX(-110px);
+    }
+}
+
+@keyframes bounceA {
+    from {
+      transform: translateX(-110px);
+    }
+    to {
+      transform: translateX(-10px);
+    }
+}
+
+.ball {
+    width: 30px;
+    height: 30px;
+    background:darkkhaki;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    animation: bounce 3s infinite;
+    transition-delay: 3s;
+}
+.ballTwo {
+    width: 30px;
+    height: 30px;
+    background:darkkhaki;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    animation: bounceA 3s infinite;
+    transition-delay: 3s;
+}
+
+.container{
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color:darkgrey;
+    width: 700px;
+    padding: 70;
+    background-color: white;
+}
+
+.container h1{
+    padding-left: 150;
+    color:chocolate;
+    /*rgb(223, 229, 55);*/
+    border-bottom: 2px double;
+}
+
+.container .q{
+    color: darkkhaki;
+}
+
+.container .word{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container input{
+    padding: 10px;
+}
+
+.container .aBtn{
+    padding: 5px;
+    cursor: pointer;
+    width: 100;
+    background:rgb(95, 186, 151);
+    color: white;
+    border-width: 1px;
+}
+
+.container .pBtn{
+    padding: 5px;
+    cursor: pointer;
+    width: 100;
+    background: orangered;
+    color: white;
+    border-width: 1px;
+}

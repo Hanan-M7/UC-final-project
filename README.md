@@ -1,34 +1,17 @@
 
-ملاحظة: يجب تعبئة هذا الملف بمعلومات المشروع، يمكنك اختيار اللغة. تأكد من مسح اللغة الأخرى والتعليقات الجانبية 
-> ⬇️ تعبئة معلومات المشروع بالعربية  
-
 <div dir="rtl">
   
-### اسم الطالب
-
-
-### اسم المشروع
-
-
-# شرح الفكرة
-المشكلة والحلول المطروحة إن وجدت
-
-
-# الأعمال المستقبلية
-
 
 </div>
 
-> Fill out project information in English ⬇️
 ### Student Name
-
+Hanan Hasan
 
 ### Project Name
+Word Scramble Game
 
 # Idea
-Problem and solutions if found 
-
+The idea is a game where a random word is shown in mixed up letters and the user tries to figure it out.
 
 # Future Work 
-
-
+Add a score board and a timer.
